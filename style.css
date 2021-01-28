@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+#display {
+  min-width: 50%;
+  border-style: dotted;
+}
+.red {
+  background: rgba(255, 0, 0, 0.5);
+}
+.col-md-3 {
+  border-style: solid;
+  color: black;
+  background-color: gray;
+}
+.container-fluid {padding: 40px 400px;}
+div {
+  background-color: white;
+  padding: 0px 400px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+}
+
+@media (max-width: 991px) {
+div {
+  background-color: white;
+    border-style: solid;
+    color: black;
+  padding: 0px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+}
