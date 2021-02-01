@@ -1,7 +1,3 @@
-// $(document).ready(function () {
-//   console.log("ready!");
-// });
-
 let arr = [];
 let sub = [];
 
