@@ -1,0 +1,60 @@
+#display {
+  min-width: 50%;
+  border-style: dotted;
+}
+.col-md-3 {
+  background-color: #808080;
+}
+.container-fluid {
+  padding: 30px 30px;
+  margin: 80px 80px;
+}
+.btn-primary {
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+div {
+  background-color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #008000;
+}
+
+@media (min-width: 992px) {
+  /* Rules for laptops, small desktop screens and bigger viewports */
+}
+@media (min-width: 1200px) {
+  /* Rules for larger desktop screens only */
+  .row {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+@media (max-width: 1199px) {
+  /* Rules for laptops, small desktop screens, and smaller viewports */
+  .row {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+@media (max-width: 991px) {
+  /* Rules for tablets and smaller viewports */
+  .row {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 767px) {
+  /* Rules for smartphones only */
+  .row {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
